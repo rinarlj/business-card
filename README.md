@@ -1,4 +1,4 @@
-My Personal Business Card
+## My Personal Business Card
 
 This project is a personal business card created as part of Practice Session #1.
 
