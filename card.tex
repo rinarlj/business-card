@@ -5,31 +5,45 @@
 \usepackage{graphicx}
 \usepackage{multicol}
 %\usepackage{xltxtra}
-%\setromanfont[Mapping=tex-text]{Gill Sans}
+\setromanfont[Mapping=tex-text]{Gill Sans}
 
 \pagestyle{empty}
 \setlength\parindent{0pt}
-\usepackage[paperwidth=3.5in, 
+\usepackage[paperwidth=3.8in, 
     paperheight=2.15in,
     left=0.07in,
     right=0.07in,
-    top=0.05in,
+    top=0.01cm,
     bottom=0.08in]{geometry}
 
 \begin{document}
-\centering \includegraphics[width=.25\linewidth]{new_logo}\\[3pt]
+%\centering \includegraphics[width=.25\linewidth]{new_logo}\\[3pt]
+\begin{center}
+\begin{minipage}[c]{0.2\textwidth}
+  \centering\includegraphics[width=1.5cm]{logo.pdf}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.23\textwidth}
+  \centering\includegraphics[width=1.8cm]{new_logo.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.23\textwidth}
+  \centering\includegraphics[width=2cm]{centralelille.png}
+\end{minipage}
 \parbox{2in}{\Large \centering Rina Ralijaona\\[1pt]
-\normalsize Master Student in Data Science}
+\normalsize Master Data Science}
+\end{center}
 
 \vfill
 \raggedright
 \begin{multicols}{2}
-rinarlj\\
+rinaralijaona4@gmail.com\\
 https://rinarlj.github.io/\\
 
 \columnbreak
 \raggedleft
-rina.ralijaona@univ-lille.fr\\
+rina.ralijaona.etu@univ-lille.fr\\
 +33 7 51 06 95 26%
 \end{multicols}%
+
+
+
 \end{document}
